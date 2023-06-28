@@ -1,0 +1,26 @@
+@import '../../styles/settings.scss';
+
+.columnForm {
+
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+    span {
+        margin: 5px 10px;
+        font-size: 15px;
+        letter-spacing: 2px;
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .columnForm {
+        flex-direction: column;
+        width: 33%;
+    }
+
+    .columnForm Button {
+        margin-top: 30px;
+    }
+}
