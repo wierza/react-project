@@ -18,6 +18,7 @@
 .navicon {
     font-size: 24px;
     color: white;
+    margin-left: 20px;
 }
 
 .navlinks {
@@ -30,9 +31,10 @@
         margin-left: 10px;
         a {
             color: white;
-            font-size: 20px;
-            font: $font-text;
+            font-size: 15px;
+            font-family: $font-text;
             text-decoration: none;
+            font-weight:400;
         }
         
         
