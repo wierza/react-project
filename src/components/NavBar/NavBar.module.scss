@@ -1,0 +1,40 @@
+@import '../../styles/settings.scss';
+
+
+.navcont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 15px 0;
+  }
+
+.navbar {
+    background: darken($color-dark, 3%);
+    
+}
+
+.navicon {
+    font-size: 24px;
+    color: white;
+}
+
+.navlinks {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+    li {
+        margin-left: 10px;
+        a {
+            color: white;
+            font-size: 20px;
+            font: $font-text;
+            text-decoration: none;
+        }
+        
+        
+    }
+}
