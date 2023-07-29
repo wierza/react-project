@@ -2,7 +2,7 @@ import styles from './Container.module.scss';
 
 const Container = props => {
     return (
-        <div classnName={`${styles.container} ${props.className}`}>{props.children}</div>
+        <div className={`${styles.container} ${props.className}`}>{props.children}</div>
     );
 };
 

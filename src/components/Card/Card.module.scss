@@ -11,3 +11,21 @@
     justify-content: space-between;
     font-weight: bold;
 }
+
+
+
+.favoriteIcon {
+    color: black;
+    cursor: pointer;
+
+    &.active {
+        color: yellow;
+        font-weight: bolder;
+    }
+}
+
+@media (max-width: 768px) {
+    .button {
+        width: 120px;
+    }
+}
