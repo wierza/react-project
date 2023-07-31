@@ -2,12 +2,13 @@
 @import '../../styles/settings.scss';
 
 .favorite {
-  position: relative;;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ 
 }
 
 .column {
-  position: absolute;
-  left: 34%;
   width: calc(33% - 12px);
   background: $color-light;
   margin: 0 $base-size $base-size 0;
